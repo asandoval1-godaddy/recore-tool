@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'GD Sherpa';
+  src: url('/fonts/GD_Sherpa_Variable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'GD Sherpa', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #f0f0f0;
+  color: #111;
+}
